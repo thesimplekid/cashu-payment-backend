@@ -1,0 +1,8 @@
+# Cashu POS Configuration
+
+# POS server configuration
+[pos]
+listen_host = "127.0.0.1"
+listen_port = 3000
+payment_url = ""
+accepted_mints = []  # List of accepted mint URLs

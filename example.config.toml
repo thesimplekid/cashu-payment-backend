@@ -1,0 +1,15 @@
+# Cashu POS Configuration Example
+# Copy this file to config.toml and modify as needed
+
+# POS (Point of Sale) server configuration
+[pos]
+# HTTP API server address
+listen_host = "127.0.0.1"
+listen_port = 3000
+# Payment URL for the POS
+payment_url = "https://your-pos-payment-url.com"
+# List of accepted Cashu mint URLs
+accepted_mints = [
+  "https://mint1.example.com",
+  "https://mint2.example.com"
+]
